@@ -103,8 +103,7 @@ Register your application with Google Cloud Platform to get `client_id` and `cli
 4. Use the access token to upload the video.
 
 ```php
-
-```// Step 1: Redirect to Google's OAuth 2.0 Authorization Endpoint
+// Step 1: Redirect to Google's OAuth 2.0 Authorization Endpoint
 $client_id = 'YOUR_GOOGLE_CLIENT_ID';
 $redirect_uri = 'YOUR_REDIRECT_URI';
 $scope = 'https://www.googleapis.com/auth/youtube.upload';
